@@ -1,0 +1,57 @@
+Cara Clone dan Push di GitHub
+
+
+#1.Cara Clone
+-Bahan:
+1.Laptop/Pc.
+2.Koneksi.
+3.Browser
+
+-Alat
+1.GitHub Dekstop
+2.Github
+
+-Langkah-langkah:
+1.Register ke GitHub.com
+2.Instal Github
+3.Buat file di direktori penyimpanan anda
+4.Klik kanan pada file tersebut dan pilih "Git Bash Here",maka akan muncul jendela cmd
+5.Buka Browser
+6.Cari file yang ingin di clone di github
+7.Copy-kan alamat https/ssh yang anda di butto "clone or download"
+8.Buka kembali cmd yang tadi
+9.Ketikan "gin clone alamat yang file git yang ingin di clone".(tanpa petik).
+10.Tunggu prosess
+11.Buka file yang anda buat di direktori anda tadi
+12.Lihat apakah file yang di clone sudah ada
+13.Selesai!
+
+#Cara Push
+-Bahan:
+1.Laptop/Pc.
+2.Koneksi.
+3.Browser
+
+-Alat
+1.GitHub Dekstop
+2.Github
+
+-Langkah-Langkah
+1.Buka Browser
+2.Masuk ke Github.com
+3.Pada pojok kanan atas ada icon +,klik di new repository
+4.Isi repository name dengan nama file yang akan anda push ke github.(Sebisa mungkin samakan dengan nama file di direktori anda).
+5.Pada isi Description,isi dengan tema file yang anda upload
+6.Jika sudah klik Create repository
+7.Maka akan di tampilkan alamat untuk ke file github anda
+8.Pindah ke file yang akan anda upload
+9.Klik kanan dan pilih "Git Bash Here"
+10.Ketik git init
+11.Ketik git add *
+12.Ketik git commit-m "Comment anda",contoh git commit-m "Upload pertama"
+13.Ketik git remote add origin "alamat yang tadi",contoh git remote add origin https://github.com/mukhlis205/belajarjav.git
+14.Ketik git push origin master
+15.Tunggu Proses
+16.Kembali ke Profil anda dan klik ke Repositories
+17.Lihat apakah sudah ada file yang tadi anda upload
+18.Selesai!
